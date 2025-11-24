@@ -1,3 +1,20 @@
+.delete-participant-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: background 0.2s;
+}
+
+.delete-participant-btn:hover svg path {
+  fill: #ff1744;
+}
+
+.participant-email {
+  vertical-align: middle;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -159,7 +176,7 @@ footer {
   margin-top: 6px;
   margin-left: 18px;
   padding-left: 0;
-  list-style-type: disc;
+  list-style-type: none;
   color: #333;
 }
 
